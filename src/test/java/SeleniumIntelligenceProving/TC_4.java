@@ -29,7 +29,7 @@ public class TC_4 {
      //findElement by css selector tag[Attribute='value']
        driver.findElement(By.cssSelector("input.inputtext[placeholder='Email address or phone number']")).sendKeys("name4");
        
-       System.out.println("Test Passed");
+       System.out.println("Test Case 4 Passed");
 	}
 
 }
