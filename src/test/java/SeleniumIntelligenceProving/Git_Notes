@@ -20,7 +20,6 @@ Provide Username as github username and password as above generated token.
 e.g. Token = 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
 Note: If token is expired you can create new one and use directly.
 ********************************************************************************************
-
 Round 2: 
 Update and add files.
 git add .
@@ -29,4 +28,6 @@ git push oriogin master
 
 Pull the files from remote repository:
 git pull "https://github.com/eknathm/Selenium.git"
-
+*************************************************************************************
+Clone remote repository to local: If company/lead/manager provided you new repo the you can clone it by below commands.
+git clone "TestRepoURL"
