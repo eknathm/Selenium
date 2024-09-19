@@ -1,0 +1,32 @@
+C:\Users\Admin\eclipse-workspace --> Workspace location.
+C:\Users\Admin\eclipse-workspace\Selenium --> project location
+Pre-Requisite: Git should be installed on the system.
+Go to local project location and open git bash here and enter command --> git init
+C:/Users/Admin/eclipse-workspace/Selenium/.git/
+git config --global user.name "Eknath"  --> One time
+git config --global user.email "eknathmarathe1993@gmail.com"  --> One time
+git add .  --> This will add all files to staging area.
+git commit -m "My First Commit"  --> This will commit all added files to the local repository
+git status
+Now login/signup to github and create a repository on gihub with same name as the project name on local.
+Copy the remote repository url e.g. https://github.com/eknathm/Selenium.git from github application.
+Connect local repository with Remote repository by below onetime command.
+git remote add origin "https://github.com/eknathm/Selenium.git" --> One time command.
+git push origin master
+After entering above command it the popup will be visible asking for cred/token.
+Create a token on github: Profile --> Settings --> Developer Settings --> Personal access tokens --> Tokens(classic) 
+--> Generate new token(classic) --> select admin, repo access
+Provide Username as github username and password as above generated token.
+e.g. Token = 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
+Note: If token is expired you can create new one and use directly.
+********************************************************************************************
+
+Round 2: 
+Update and add files.
+git add .
+git commit -m "Second commit"
+git push oriogin master
+
+Pull the files from remote repository:
+git pull "https://github.com/eknathm/Selenium.git"
+
